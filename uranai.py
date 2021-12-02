@@ -1,13 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Nov 11 17:14:15 2021
+Created on Thu Dec  2 08:39:12 2021
 
 @author: ayano
 """
-import streamlit as st
 
-text=st.text_input('あなたの名前を教えて下さい')
-'あなたの名前は、',text,'です'
 import random
 
 import ipywidgets as widgets
@@ -54,6 +51,3 @@ button.on_click(on_button_clicked)
 print('誕生日を入力してください。')
 display(birthdate)
 display(button)
-
-
-
